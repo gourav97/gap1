@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(algo.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+    filter:alpha(opacity=40);
+    height:100%;
+    width:100%;
+ }
+   p
+    {
+     
+      text-align: initial;
+      font-weight: bold;
+      font-size: 150%;
+      color:black;
+    }
+body
+{
+  background-color: linen;
+}
+</style>
+</head>
+<body>
+<div id="backgroundImage">
+
+    
+
+</div>
+
+<h1 style ="color:green"><center><u>Restoring Division Algorithm</u></center></h1>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="flowchart.html">Flowchart</a></li>
+   <li><a href="video.html">Video</a></li>
+  <li><a href="re.html">Calculator</a></li>
+  <li><a href="about.html">About</a></li>
+
+</ul>
+
+ <p>  A division algorithm is an algorithm which, given two integers N and D,
+         computes their quotient and/or remainder, the result of division.<br><br>
+         Some are applied by hand, while others are employed by digital circuit 
+         designs and software.Division algorithms fall into two main categories:<br><br>
+         slow division and fast division.Slow division algorithms produce one digit
+         of the final quotient per iteration.Examples of slow division include<br><br>
+         restoring, non-performing restoring, non-restoring, and SRT division.
+         Fast division methods start with a close approximation to the final<br><br>
+         quotient and produce twice as many digits of the final quotient on
+         each iteration.Newton–Raphson and Goldschmidt fall into this category.<br><br>
+         Discussion will refer to the form {\displaystyle N/D=(Q,R)} N/D=(Q,R), where<br><br>
+         N = Numerator (dividend) D = Denominator (divisor)
+         is the input, and<br><br>
+         Q = Quotient R = Remainder is the output.<br>
+
+    </p>
+
+</body>
+</html>

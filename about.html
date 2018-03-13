@@ -1,0 +1,137 @@
+<html>
+<head>
+<style>
+<style>
+
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 30;
+   
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: green;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+ .vr {
+    width:5px;
+    background-color:white;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:210px;
+   
+}
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(pce.gif);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+    filter:alpha(opacity=40);
+    height:100%;
+    width:100%;
+ }
+body
+{
+  background-color: linen;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="html.html">Home</a></li>
+  <li><a href="flowchart.html">Flowchart</a></li>
+  <li><a href="video.html">Video</a></li>
+  <li><a href="re.html">Calculator</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<div class="vr">&nbsp;</div>
+<div id="backgroundImage">
+
+    
+
+</div>
+
+<center><table id="t01">
+  <tr>
+    <th>GROUP MEMBERS</th>
+    <th>ROLL.NUMBER</th> 
+    
+  </tr>
+  <tr>
+    <td>Viddhi Rajput (Group Leader)</td>
+    <td>17</td>
+    
+  </tr>
+  <tr>
+    <td>Shivam Upadhyay</td>
+    <td>47</td>
+    
+  </tr>
+  <tr>
+    <td>Rushikesh Pawar</td>
+    <td>8</td>
+    
+  </tr>
+  <tr>
+  <td>Divyesh Rajput</td>
+  <td>16</td>
+  </tr>
+
+  <tr>
+  <td>Gourav Prajapati</td>
+  <td>14</td>
+  </tr>
+</table></center>
+
+</body>
+</html>
